@@ -1,5 +1,1 @@
-{"name":"liberusoftware/module-crm-mobile-messaging","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\MobileMessaging\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\MobileMessaging\\MobileMessagingServiceProvider"]},"liberu":{"name":"crm-mobile-messaging"}},
-    "require": {
-        "liberusoftware/module-organizations-teams": "^1.0"
-    }
-}
+{"name":"liberusoftware/module-crm-mobile-messaging","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\MobileMessaging\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\MobileMessaging\\MobileMessagingServiceProvider"]},"liberu":{"name":"crm-mobile-messaging"}},"description":"Consent-aware mobile campaigns, templates, opt-out, quiet hours, sender governance and delivery handling","license":"MIT"}

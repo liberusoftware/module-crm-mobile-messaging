@@ -4,17 +4,13 @@ declare(strict_types=1);
 
 namespace Liberu\CRM\MobileMessaging\Models;
 
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Liberu\Foundation\Organizations\Models\Team;
+use App\Traits\IsTenantModel;
 use Illuminate\Database\Eloquent\Model;
 
 /** @property string $direction @property string $status @property int $team_id */
 final class MessagingMessage extends Model
 {
-    public function team(): BelongsTo
-    {
-        return $this->belongsTo(Team::class);
-    }
+    use IsTenantModel;
 
     protected $table = 'crm_mobile_messaging_messages';
 
